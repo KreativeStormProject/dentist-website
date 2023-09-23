@@ -1,63 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
   <title>Services</title>
 </head>
+
 <body>
-    
-    <header>
-        <div class="container nav-bar">
-          <a class="logo" href="/index.html">
-            <img src="../images/logo2.png" alt="head-logo" width="45px">
-            <h2 class="logo-text"> Dentist Office </h2>
-          </a>
-          <nav>
-            <ul>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="../index.html">Home </a></li>
-              <li><a href="contact-us.html"> Contact Us</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-    
+
+  <header>
+    <div class="container nav-bar">
+      <a class="logo" href="../index.html">
+        <img src="../images/logo2.png" alt="head-logo" width="45px">
+        <h2 class="logo-text"> Dentist Office </h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home </a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact-us.html"> Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
   <main>
-    <main>
-      <h2>Our Dental Services</h2>
-      <div class="services">
-          <div class="service">
-              
-              <h3>Dental Cleaning</h3>
-              <p>Regular dental cleanings to keep your teeth and gums healthy.</p>
-              <img src="../images/dental-cleaning.jpg" alt="Dental Cleaning" width="250px" height="250px">
-          </div>
-          <div class="service">
-              
-              <h3>Teeth Whitening</h3>
-              <p>Professional teeth whitening for a brighter smile.</p>
-              <img src="../images/theet-whitening.jpg" alt="Teeth Whitening" width="250px" height="250px">
-          </div>
-          <div class="service">
-              <h3>Fillings</h3>
-              <p>Restorative dental fillings to repair cavities.</p>
-              <img src="../images/filling.jpeg" alt="Fillings">
-          </div>
-          <div class="service">
-              <h3>Tooth Extractions</h3>
-              <p>Gentle tooth extractions when necessary.</p>
-              <img src="../images/tooth-extractions.jpg" alt="Tooth Extractions" width="250px" height="250">
-          </div>
-          
+    <section class="header-section">
+      <div class="container header-section-contents">
+        <div class="hero-container">
+          <h1 class="hero-text">Check out Our Services</h1>
+          <p class="hero-secondary-text">
+            We offer lots of dental services. With the best professionals in the field and equipments
+          </p>
+        </div>
+        <div class="hero-image-container">
+          <img src="../images/dental-extract-image.jpeg" alt="Dental extraction image" class="hero-image">
+        </div>
       </div>
-  </main>
+    </section>
+
+    <section class="services-section container">
+        <div class="services">
+          <h3 class="service-text-1">Dental Cleaning</h3>
+          <p class="service-text-2">Regular dental cleanings to keep your teeth and gums healthy.</p>
+          <img src="../images/dental-cleaning.jpeg" alt="Dental Cleaning" class="service-img">
+        </div>
+        <div class="services">
+          <h3 class="service-text-1">Teeth Whitening</h3>
+          <p class="service-text-2">Professional teeth whitening for a brighter smile.</p>
+          <img src="../images/theet-whitening.jpeg" alt="Teeth Whitening" class="service-img">
+        </div>
+        <div class="services">
+          <h3 class="service-text-1">Fillings</h3>
+          <p class="service-text-2">Restorative dental fillings to repair cavities.</p>
+          <img src="../images/filling.png" alt="Fillings" class="service-img">
+        </div>
+        <div class="services">
+          <h3 class="service-text-1">Tooth Extractions</h3>
+          <p class="service-text-2">Gentle tooth extractions when necessary.</p>
+          <img src="../images/tooth-extractions.jpg" alt="Tooth Extractions" class="service-img">
+        </div>
+    </section>
+
+    <section class="action-section ">
+      <div class="container call-action-box">
+        <div>
+          <p class="call-action-text-1">What are you waiting for!</p>
+          <p class="call-action-text-2">Contact us now and get a life changing experience</p>
+        </div>
+        <button class="signup-button-2" onclick="document.location= 'pages/contact-us.html'">Contact us</button>
+      </div>
+    </section>
+    <section class="page-top-btn-section container">
+      <a href="#top" class="page-top-btn"> &#9650; </a>
+    </section>
   </main>
 
   <footer>Copyright &copy</footer>
 </body>
-</html>
 
+</html>
